@@ -12,7 +12,7 @@ jobs:
 
       - name: build archive and ipaify
         run: |
-          sudo xcode-select -s /Applications/Xcode_15.4.app || sudo xcode-select -s /Applications/Xcode_15.2.app || true
+          sudo xcode-select -s /Applications/Xcode_15.4.app/Contents/Developer || sudo xcode-select -s /Applications/Xcode_15.2.app/Contents/Developer || true
           wget -O archive.zip "YOURLINKHERE"
           unzip archive.zip -d .
 

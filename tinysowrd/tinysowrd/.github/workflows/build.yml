@@ -12,7 +12,8 @@ jobs:
 
       - name: build archive and ipaify
         run: |
-          wget -O archive.zip "https://www.dropbox.com/scl/fi/gk2i6utzhcxcvjc7h1g82/73d575ba-6cb7-11f1-8949-5cea1d8ad0e4.zip?rlkey=8o50i09a2xuj4tl9l78n2bfx8&dl=1"
+          sudo xcode-select -s /Applications/Xcode_15.4.app || sudo xcode-select -s /Applications/Xcode_15.2.app || true
+          wget -O archive.zip "https://www.dropbox.com/scl/fi/s7jg5ydvn3msvbathm90m/37275133-6cb9-11f1-bba9-5cea1d8ad0e4.zip?rlkey=s3mzl6a0kjltfzmmrv06wddpb&dl=1"
           unzip archive.zip -d .
 
           xcodebuild archive -project tinysowrd.xcodeproj -scheme 'tinysowrd' -archivePath tinysowrd.xcarchive -configuration Release CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
