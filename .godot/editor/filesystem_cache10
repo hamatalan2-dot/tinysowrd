@@ -1,0 +1,65 @@
+9cad1ddce9e5a63143ba340c9520626b
+::res://::1781951613
+apim.png::CompressedTexture2D::606133710259932090::1781950340::1781951689::1::::<><><>0<>0<>7e21e2e5a8f99181159bbce60f6effb0<>res://.godot/imported/apim.png-0ac4792d9a1fc4d965c4a9742b6e0981.ctex::
+icon.svg::CompressedTexture2D::1121192701274943557::1781876461::1781951688::1::::<><><>0<>0<>822f280bcd88b565207e8c90f8b25c2e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1781943823
+::res://assets/Decorations/::1781886517
+::res://assets/Decorations/Bushes/::1781884631
+Bushe1.png::CompressedTexture2D::4984718818343634500::1781884630::1781951688::1::::<><><>0<>0<>640266f33e37f7bd6b6625924475d511<>res://.godot/imported/Bushe1.png-d8c1c0093515709099ea19bedaf25e14.ctex::
+Bushe2.png::CompressedTexture2D::2837870738423063842::1781884630::1781951688::1::::<><><>0<>0<>70ad2a0bbd51355fc2bffe596a640a0d<>res://.godot/imported/Bushe2.png-ab672258fa8143abd6e7c3982ed77226.ctex::
+Bushe3.png::CompressedTexture2D::1378174121131375812::1781884630::1781951688::1::::<><><>0<>0<>34d7033d536ab6b23bd04f5641359865<>res://.godot/imported/Bushe3.png-34d8264d525b96d696f6cdb5f5968ba1.ctex::
+Bushe4.png::CompressedTexture2D::6547643009048339064::1781884630::1781951688::1::::<><><>0<>0<>dbac0943c1ecce6e0347887702f6e9c3<>res://.godot/imported/Bushe4.png-6594d5103a6288f312b27e51ae2d26de.ctex::
+::res://assets/Decorations/Clouds/::1781884631
+Clouds_01.png::CompressedTexture2D::5001605076421995526::1781884630::1781951688::1::::<><><>0<>0<>6767cfe14896389683b1db4cdda28a16<>res://.godot/imported/Clouds_01.png-efc1471e98c6d8d4b031d02e3b8b76d4.ctex::
+Clouds_02.png::CompressedTexture2D::5752744057273756643::1781884630::1781951688::1::::<><><>0<>0<>285aa5f080740bf67be0ea73628db3bf<>res://.godot/imported/Clouds_02.png-1c7cb27f033aaabd7082538a275217c1.ctex::
+Clouds_03.png::CompressedTexture2D::8316222478905449648::1781884630::1781951688::1::::<><><>0<>0<>4e834048607beab269a2be25442899dd<>res://.godot/imported/Clouds_03.png-391dbb7e58295db37e92c41b85c3cfd9.ctex::
+Clouds_04.png::CompressedTexture2D::7228620618960074134::1781884630::1781951688::1::::<><><>0<>0<>bfe32e69d8cac5dfeba1f51ba5334540<>res://.godot/imported/Clouds_04.png-24bdfb4805ba9741c7a835c494d10b9a.ctex::
+Clouds_05.png::CompressedTexture2D::3440115708704689417::1781884630::1781951688::1::::<><><>0<>0<>6ee752a4edf54408444a12aeac9bf022<>res://.godot/imported/Clouds_05.png-18b450c85ed278b841db5e9aed602216.ctex::
+Clouds_06.png::CompressedTexture2D::7975190467646017768::1781884630::1781951688::1::::<><><>0<>0<>6e472039d43942a905457aaa8d044006<>res://.godot/imported/Clouds_06.png-e4f23afe807d661d1efa93faa3cc4949.ctex::
+Clouds_07.png::CompressedTexture2D::8541264005993516713::1781884630::1781951688::1::::<><><>0<>0<>c1641e31fa2b098e382df60af5895743<>res://.godot/imported/Clouds_07.png-14187b4083ee4e2d26227512658507d8.ctex::
+Clouds_08.png::CompressedTexture2D::2127300011673732666::1781884630::1781951688::1::::<><><>0<>0<>b047e1b31084df73ef5f4890bfb54150<>res://.godot/imported/Clouds_08.png-758f46c3f74c3ad61622ef9e0b5fbe37.ctex::
+::res://assets/Decorations/Rocks/::1781884631
+Rock1.png::CompressedTexture2D::5898009675959861870::1781884630::1781951688::1::::<><><>0<>0<>c0a99a8de1c352521ae11911e0c9e5e3<>res://.godot/imported/Rock1.png-21eb6ab9d235ee7b56fda917d45bc581.ctex::
+Rock2.png::CompressedTexture2D::3756968443088233989::1781884630::1781951688::1::::<><><>0<>0<>4ca448dd9a6d8f3c2f6ce79523b6c185<>res://.godot/imported/Rock2.png-8514af3c1deaf6b113135cd88a58eb39.ctex::
+Rock3.png::CompressedTexture2D::5109940245997056219::1781884630::1781951688::1::::<><><>0<>0<>01da3d6566312d97102effe8f3c47624<>res://.godot/imported/Rock3.png-b43da9126551f52464c84c4ebabeaaae.ctex::
+Rock4.png::CompressedTexture2D::6721663642318357941::1781884630::1781951688::1::::<><><>0<>0<>2c92dfbd214843b302ce56cf12e879f4<>res://.godot/imported/Rock4.png-8df85d9379519191c932a63ab36d866d.ctex::
+::res://assets/Decorations/Rocks in the Water/::1781884631
+Water Rocks_01.png::CompressedTexture2D::7458058927660812870::1781884630::1781951688::1::::<><><>0<>0<>005a5693d799edad8b73e4ef5ac8d0f3<>res://.godot/imported/Water Rocks_01.png-1423d64132a63137e5db026bd3f69033.ctex::
+Water Rocks_02.png::CompressedTexture2D::408361548511238466::1781884630::1781951688::1::::<><><>0<>0<>40f9f53a24f61c8a3e5ec34c2ed117d9<>res://.godot/imported/Water Rocks_02.png-f156b021d71b6dc1f07e87a8ff7f5c63.ctex::
+Water Rocks_03.png::CompressedTexture2D::898907165348653158::1781884630::1781951688::1::::<><><>0<>0<>e9789ffc779f31306358351a2f4ed4ff<>res://.godot/imported/Water Rocks_03.png-6575becf83925b21e8bae11faefa42df.ctex::
+Water Rocks_04.png::CompressedTexture2D::2603471860500951624::1781884630::1781951688::1::::<><><>0<>0<>eaa6438eac7c152f897ec6d5fdf354ca<>res://.godot/imported/Water Rocks_04.png-6f4a227d5d5dbac2add348fbf60c5c33.ctex::
+::res://assets/Decorations/Rubber Duck/::1781884631
+Rubber duck.png::CompressedTexture2D::6667220509936535112::1781884630::1781951687::1::::<><><>0<>0<>e5325f37751dd7143ffd534c98da3145<>res://.godot/imported/Rubber duck.png-2661e72990da424c88cff8ec372a8cef.ctex::
+::res://assets/Decorations/Trees/::1781890057
+Sheep_Grass.png::CompressedTexture2D::1007334285375973455::1781890053::1781951687::1::::<><><>0<>0<>24057ed4097304eb1f98e42d1a11995c<>res://.godot/imported/Sheep_Grass.png-ee6e26ca84f2e7d5dcb80d9ad1a95bbe.ctex::
+Sheep_Move.png::CompressedTexture2D::4169975730665338032::1781890057::1781951687::1::::<><><>0<>0<>0c2088e5e7d6c83343acaaa8fe4060b1<>res://.godot/imported/Sheep_Move.png-a40f4b62929c058e1c69433fbdd0939e.ctex::
+Stump 1.png::CompressedTexture2D::7881112006790003371::1781890016::1781951687::1::::<><><>0<>0<>56a59d95d992be70c0b9fce5149e8f7d<>res://.godot/imported/Stump 1.png-9ac9aa08b12cb49f5bd84bd04828392a.ctex::
+Stump 2.png::CompressedTexture2D::4568338447924210737::1765676806::1781951687::1::::<><><>0<>0<>ee8fbf444dae6f53a15dadeac3ff0838<>res://.godot/imported/Stump 2.png-907eef572b7886b624be23957626f934.ctex::
+Stump 3.png::CompressedTexture2D::4271499011874070719::1765676814::1781951687::1::::<><><>0<>0<>12199bded987b254b45aae37e26a44a0<>res://.godot/imported/Stump 3.png-2902aa7b0ff3a41fd55ca0940ebed777.ctex::
+Stump 4.png::CompressedTexture2D::5492017248229761826::1765676823::1781951687::1::::<><><>0<>0<>6a491571275b34d163503ea6fb01b4cd<>res://.godot/imported/Stump 4.png-56955e0f735181888711bf1e60668f3e.ctex::
+Tree1.png::CompressedTexture2D::1680403724819055384::1749693937::1781951688::1::::<><><>0<>0<>b75133bc320db80e6dbc10f2488a7446<>res://.godot/imported/Tree1.png-df043709c01ca287a3976c2decbe6ad5.ctex::
+Tree2.png::CompressedTexture2D::3712313137561084417::1749693952::1781951688::1::::<><><>0<>0<>b0d593eb174bfc3395b8805bccb1304b<>res://.godot/imported/Tree2.png-d125839120f384863d31f8df9e2827b7.ctex::
+Tree3.png::CompressedTexture2D::898840737651279334::1749764222::1781951688::1::::<><><>0<>0<>9d61b13640f9c276c58697bf77e49d35<>res://.godot/imported/Tree3.png-7682f9c39da169dda06281463799c99b.ctex::
+Tree4.png::CompressedTexture2D::4103553426669621130::1749693986::1781951688::1::::<><><>0<>0<>04e7a483e18e2b8cfbcac98331e90ac0<>res://.godot/imported/Tree4.png-b7d08f94ef63813eb4ba92de2fec43f7.ctex::
+Wood Resource.png::CompressedTexture2D::6943106346358414745::1781889997::1781951687::1::::<><><>0<>0<>5a0b729e059eec6f7fc66db066c2ab04<>res://.godot/imported/Wood Resource.png-a0850d9828b120d1bae099be9735649f.ctex::
+::res://assets/enemies/::1781890800
+Warrior_Red.png::CompressedTexture2D::1708342089855898794::1770466187::1781951688::1::::<><><>0<>0<>fdfd10926ab53904f7ffc8aeb1541244<>res://.godot/imported/Warrior_Red.png-e9c532f6d53d56b76ce172c49f4dd786.ctex::
+::res://assets/player/::1781891282
+Warrior_Blue.png::CompressedTexture2D::7425307186361306247::1770466187::1781951688::1::::<><><>0<>0<>ed1850c101386ffe967015b349716191<>res://.godot/imported/Warrior_Blue.png-48db98929c750878f8b89051cb51b922.ctex::
+::res://assets/Tileset/::1781882165
+Shadow.png::CompressedTexture2D::2928481281127974285::1760028312::1781951688::1::::<><><>0<>0<>fc5dd046e7ce6cc2f85137966b8653f2<>res://.godot/imported/Shadow.png-4633761f9d173b9bef76e8b068c755e1.ctex::
+Tilemap_color1.png::CompressedTexture2D::3080651430071303706::1765230900::1781951688::1::::<><><>0<>0<>3101e30fd5f95ef1f54967cc671d088d<>res://.godot/imported/Tilemap_color1.png-de7a5b6849a43d9e1d31a0f247dd52e9.ctex::
+Tilemap_color2.png::CompressedTexture2D::5350532451078796905::1765230995::1781951688::1::::<><><>0<>0<>338603d9a28303b8152515f560c314d4<>res://.godot/imported/Tilemap_color2.png-38ab98938134216224a4d2222d806a63.ctex::
+Tilemap_color3.png::CompressedTexture2D::8982222933261553177::1765231003::1781951688::1::::<><><>0<>0<>209de1bd85baa313571cdd807faec09e<>res://.godot/imported/Tilemap_color3.png-6b10ca9ac994581329dafd4ac8931f25.ctex::
+Tilemap_color4.png::CompressedTexture2D::3235364387154746949::1765231012::1781951688::1::::<><><>0<>0<>a8ff3c474b30e3e1ca1633db156214ee<>res://.godot/imported/Tilemap_color4.png-c1c3108ff4e186623830ec7cf78076d3.ctex::
+Tilemap_color5.png::CompressedTexture2D::3885272503515589414::1765231023::1781951688::1::::<><><>0<>0<>063b00da08b1f39bb81ae3cbb6627570<>res://.godot/imported/Tilemap_color5.png-c2c8235dfda2dde6ca36e0931a2ac47b.ctex::
+Water Background color.png::CompressedTexture2D::4339078640346830939::1749743531::1781951688::1::::<><><>0<>0<>f935cf47c92001704d831500c0ff635b<>res://.godot/imported/Water Background color.png-b360b8bbe4bdb184af2fd03734796c3a.ctex::
+Water Foam.png::CompressedTexture2D::3820127096932832417::1760028423::1781951688::1::::<><><>0<>0<>b7519854b23184f14aec197b95d298fa<>res://.godot/imported/Water Foam.png-1f7e45714a6109c00cabd8a17e2bec1a.ctex::
+::res://resources/::1781880080
+::res://scences/::1781944601
+mapscence.tscn::PackedScene::1096219344257060567::1781944601::0::1::::<><><>0<>0<><>::uid://b2248x5plsyn8::::res://assets/Tileset/Water Background color.png<>uid://buoq62bqsquov::::res://assets/Tileset/Water Foam.png<>uid://f22wjh0xlvf3::::res://assets/Decorations/Rocks in the Water/Water Rocks_02.png<>uid://d08b5txxn01ld::::res://assets/Tileset/Tilemap_color3.png<>uid://cdavuc2mlujxc::::res://assets/Decorations/Bushes/Bushe1.png<>uid://bgoxk02re1kec::::res://assets/Decorations/Bushes/Bushe2.png<>uid://c56j7g405djin::::res://assets/Decorations/Trees/Wood Resource.png<>uid://dkjw07nathwx4::::res://assets/Decorations/Trees/Stump 1.png<>uid://tvuldlwrawr1::::res://assets/Decorations/Bushes/Bushe3.png<>uid://m2n1mvicnuy5::::res://assets/Decorations/Trees/Tree3.png<>uid://cqbbmfpgwp8as::::res://assets/Decorations/Rocks/Rock1.png<>uid://c21a221iecqqf::::res://assets/Decorations/Rocks/Rock4.png<>uid://dei0e15becv1o::::res://assets/Decorations/Rocks in the Water/Water Rocks_01.png<>uid://c18wfa0oif8a3::::res://assets/Decorations/Rubber Duck/Rubber duck.png<>uid://bj5j45c24jat3::::res://assets/Tileset/Tilemap_color1.png<>uid://b7e6w1sg3r4id::::res://scences/player/players.tscn
+::res://scences/enemies/::1781890885
+::res://scences/player/::1781944188
+players.gd::GDScript::6261622153952541052::1781944188::0::1::::<>CharacterBody2D<><>0<>0<><>::
+players.tscn::PackedScene::4642644099092359695::1781940264::0::1::::<><><>0<>0<><>::uid://cvhgacmhwvnr5::::res://scences/player/players.gd<>uid://dd14yvscw8gcd::::res://assets/player/Warrior_Blue.png
+::res://scrips/::1781880056
