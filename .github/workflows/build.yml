@@ -12,24 +12,24 @@ jobs:
 
       - name: build archive and ipaify
         run: |
-          wget -O archive.zip "https://www.dropbox.com/scl/fi/rjmuaij0nxya8m6xvnlbh/152605fb-6cb6-11f1-96d3-5cea1d8ad0e4.zip?rlkey=u6qy2grnxyterawewyb7jdijn&dl=1"
+          wget -O archive.zip "https://www.dropbox.com/scl/fi/gk2i6utzhcxcvjc7h1g82/73d575ba-6cb7-11f1-8949-5cea1d8ad0e4.zip?rlkey=8o50i09a2xuj4tl9l78n2bfx8&dl=1"
           unzip archive.zip -d .
 
-          xcodebuild archive -project TinySword.xcodeproj -scheme 'TinySword' -archivePath TinySword.xcarchive -configuration Release CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+          xcodebuild archive -project tinysowrd.xcodeproj -scheme 'tinysowrd' -archivePath tinysowrd.xcarchive -configuration Release CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
 
           mkdir Payload
-          mv TinySword.xcarchive/Products/Applications/TinySword.app Payload/TinySword.app
+          mv tinysowrd.xcarchive/Products/Applications/tinysowrd.app Payload/tinysowrd.app
 
-          zip -r "TinySword.ipa" "Payload"
+          zip -r "tinysowrd.ipa" "Payload"
 
-          mv TinySword.ipa ${{ runner.temp }}/TinySword.ipa
+          mv tinysowrd.ipa ${{ runner.temp }}/tinysowrd.ipa
 
 
       - name: Upload application
         uses: actions/upload-artifact@v4
         with:
-          name: TinySword
-          path: ${{ runner.temp }}/TinySword.ipa
+          name: tinysowrd
+          path: ${{ runner.temp }}/tinysowrd.ipa
           # you can also archive the entire directory
           # path: ${{ runner.temp }}/build
           retention-days: 3
