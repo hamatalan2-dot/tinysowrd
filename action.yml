@@ -5,14 +5,48 @@ on: [workflow_dispatch]
 
 jobs:
   build_ios:
-    runs-on: macos-latest
+    runs-on: macos-15
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
 
+      - name: Select best Xcode version
+        run: |
+          echo "=== Available Xcode versions ==="
+          ls /Applications/ | grep -i xcode
+          echo "================================="
+
+          # Try Xcode 26.x first (needed for Godot 4.7 export templates)
+          SELECTED=""
+          for xc in /Applications/Xcode_26*.app; do
+            if [ -d "$xc/Contents/Developer" ]; then
+              SELECTED="$xc/Contents/Developer"
+              break
+            fi
+          done
+
+          # Fallback to Xcode 16.x
+          if [ -z "$SELECTED" ]; then
+            for xc in /Applications/Xcode_16*.app; do
+              if [ -d "$xc/Contents/Developer" ]; then
+                SELECTED="$xc/Contents/Developer"
+              fi
+            done
+          fi
+
+          if [ -n "$SELECTED" ]; then
+            echo "Selecting: $SELECTED"
+            sudo xcode-select -s "$SELECTED"
+          else
+            echo "No suitable Xcode found, using default."
+          fi
+
+          echo "=== Active Xcode ==="
+          xcodebuild -version
+          echo "===================="
+
       - name: build archive and ipaify
         run: |
-          sudo xcode-select -s /Applications/Xcode_15.4.app/Contents/Developer || sudo xcode-select -s /Applications/Xcode_15.2.app/Contents/Developer || true
           wget -O archive.zip "YOURLINKHERE"
           unzip archive.zip -d .
 
