@@ -4,6 +4,7 @@ import subprocess
 import shutil
 import stat
 import os
+import sys
 
 
 load_dotenv()
@@ -27,6 +28,13 @@ def _check_repo_exists(owner: str, repo_name: str) -> bool:
             return True
         else:
             return False
+    except FileNotFoundError:
+        print("\n[Error] GitHub CLI ('gh') is not installed or not added to your system PATH!")
+        print("To fix this, please install GitHub CLI:")
+        print("  - Run this command in a new PowerShell/CMD window: winget install GitHub.cli")
+        print("  - Or download it from: https://cli.github.com/")
+        print("After installing it, make sure to restart your terminal and log in using 'gh auth login' before running this script again.\n")
+        sys.exit(1)
     except subprocess.CalledProcessError:
         return False
 

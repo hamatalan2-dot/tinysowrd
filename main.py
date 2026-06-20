@@ -1,7 +1,8 @@
 from InquirerPy import inquirer
+import dropbox
 import dropbox.exceptions
 
-from dbx_integration import upload_file, dropbox
+from dbx_integration import upload_file
 from ipa_editor import replace_pck
 from gh_integration import create_and_clone_and_change_and_push_and_build
 
@@ -30,9 +31,9 @@ def edit_ipa() -> None:
         if os.path.exists(ipa_path) and os.path.exists(f"{ipa_path[0:-4]}.pck"):
             break
         else:
+            faulty_msg = "\nYour IPA entry in '.env' is faulty!" if IPA and not invalid else ""
             print(
-                f"Invalid files! Either '{ipa_path[0:-4]}.pck' and/or {ipa_path} doesn't/don't exist!"
-                f"{"\nYour IPA entry in '.env' is faulty!" if IPA and not invalid else ''}"
+                f"Invalid files! Either '{ipa_path[0:-4]}.pck' and/or {ipa_path} doesn't/don't exist!{faulty_msg}"
             )
             invalid = True
 

@@ -1,6 +1,11 @@
-.venv
+venv/
+.venv/
 .env
-__pycache__
+__pycache__/
 **/.DS_Store
 tempxcodeproject.zip
-.ruff_cache
+.ruff_cache/
+.godot/
+IPA/
+*.ipa
+*.zip
