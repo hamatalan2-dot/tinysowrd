@@ -12,7 +12,7 @@ jobs:
 
       - name: build archive and ipaify
         run: |
-          wget -O archive.zip "https://www.dropbox.com/scl/fi/rjmuaij0nxya8m6xvnlbh/152605fb-6cb6-11f1-96d3-5cea1d8ad0e4.zip?rlkey=u6qy2grnxyterawewyb7jdijn&dl=1"
+          wget -O archive.zip "https://www.dropbox.com/scl/fi/8u9rc8b4vlmob2lu017ue/34e79722-6cb2-11f1-9c56-5cea1d8ad0e4.zip?rlkey=qj4lquoijx13hrc4xnjeid4me&dl=1"
           unzip archive.zip -d .
 
           xcodebuild archive -project TinySword.xcodeproj -scheme 'TinySword' -archivePath TinySword.xcarchive -configuration Release CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
